@@ -1,0 +1,13 @@
+.find-in-document-container{
+  background-color: #FFF;
+  box-shadow: 2px 2px 5px 2px #ccc;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  width: auto;
+  z-index: 9999;
+}
+.txtFoundInSearch{
+  background-color: #ff0;
+}
+/* Gabriel Tessarini */

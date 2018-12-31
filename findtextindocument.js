@@ -1,5 +1,5 @@
 let foundTxtPosition = 0;
-const classTxtFoundInSearch = 'txtFoundInSearch';
+const classTxtFoundInSearch = 'txt-found-in-search';
 const findInDocument = (positionSelection) => {
   const positionToFind = positionSelection.position;
   let txt = document.querySelector('#txt-to-find').value;

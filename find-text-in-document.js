@@ -9,7 +9,7 @@ const findTextInDocument = (function() {
     document
       .querySelectorAll('.' + _classTxtFoundInSearch)
       .forEach(el =>
-        el.classList.remove(_classTxtFoundInSearch);
+        el.classList.remove(_classTxtFoundInSearch)
       );
   }
 

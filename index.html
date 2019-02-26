@@ -3,14 +3,13 @@
     <meta charset="utf-8">
     <title>FindTextInDocument</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="findtextindocument.js"></script>
+    <script src="find-text-in-document.js"></script>
   </head>
   <body>
     <div class="find-in-document-container">
-      <input type="text" id="txt-to-find" value="" oninput="findInDocument({position: 0})"/>
-      <input type="button" value="Prev" onclick="findInDocument({position: -1})"/>
-      <input type="button" value="Next" onclick="findInDocument({position: 1})"/>
+      <input type="text" id="query" value="" oninput="findTextInDocument.find({position: 0})"/>
+      <input type="button" value="Prev" onclick="findTextInDocument.find({position: -1})"/>
+      <input type="button" value="Next" onclick="findTextInDocument.find({position: 1})"/>
     </div>
     <p>
       My project
@@ -35,4 +34,3 @@
     </p>
   </body>
 </html>
-<!-- Gabriel Tessarini  -->
